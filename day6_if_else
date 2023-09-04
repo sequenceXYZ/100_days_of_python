@@ -1,0 +1,9 @@
+print("SECURE LOGIN")
+username = input("Username > ")
+password = input("Password > ")
+if username == "agnija" and password == "xyz":
+  print("Welcome Agnija!")
+elif username == "anna" and password == "abc":
+  print("Welcome Anna")
+else:
+  print("Please, authorise to login.")
