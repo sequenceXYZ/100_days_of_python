@@ -1,0 +1,19 @@
+print("Marvel Movie Character Creator")
+print("--")
+answer1 = input("Do you like 'hanging around'?: ")
+if answer1 == "no":
+  print("Then you're not Spider-man.")
+  
+print()
+
+answer2 = input("Do you have a 'gravelly' voice?: ")
+if answer2 == "no":
+  print("Aww, then you're not Korg.")
+
+print()
+
+answer3 = input("Do you often feel 'Marvelous'?: ")
+if answer3 == "yes":
+  print("Aha! You're Captain Marvel! Hi!")
+else:
+  print(" I don't know who you are!!")
