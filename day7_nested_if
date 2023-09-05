@@ -1,0 +1,10 @@
+movie = input("What is your favorite movie?: ")
+if movie == "barbie":
+  print("I like it too!")
+  colour = input("Do you like pink?: ")
+  if colour == "yes":
+    print("I like it too!")
+  else:
+    print("That is weird!")
+else:
+  print("I haven't seen this movie.")
