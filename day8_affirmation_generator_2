@@ -1,0 +1,7 @@
+print("---Affirmation generator---")
+
+name = input ("What is your name?: ")
+day = input ("What is the day today?: ")
+colour = input ("What is your favourite colour?: ")
+animal = input ("What is your favourite animal?: ")
+print(f"Hello, {name}! Today is very sunny {day} and you will succeed at everything because your favorite colour is {colour} and your favourite animal is {animal}.")
