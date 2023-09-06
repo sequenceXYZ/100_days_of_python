@@ -1,0 +1,5 @@
+print("---How many seconds are in a year?---")
+
+year = int(input("How many days are in this year?: "))
+seconds = year * 24 * 60 * 60
+print(f"Year with {year} days will have {seconds} seconds.")
