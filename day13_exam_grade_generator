@@ -1,0 +1,21 @@
+print("---Exam Grade Generator---")
+print()
+exam = input("Name of exam: ")
+pointsMaximum = int(input("Maximum points to receive: "))
+pointReceived = int(input("How many points did you receive?: "))
+percentage = (pointReceived / pointsMaximum) * 100
+percentageRound = round(percentage)
+print(f"Hi there! You have received {percentageRound} % in {exam} exam.")
+print()
+if percentageRound >= 90:
+  print("You received A+ grade.")
+elif percentageRound >=80 and percentageRound <= 89:
+  print("You received A grade.")
+elif percentageRound >= 70 and percentageRound <= 79:
+  print("You received B grade.")
+elif percentageRound >= 60 and percentageRound <= 69:
+  print("You received C grade.")
+elif percentageRound >= 50 and percentageRound <= 59:
+  print("You received D grade.")
+else:
+  print("Your percentage is under 50. You receive U grade.")
