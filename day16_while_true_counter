@@ -1,0 +1,17 @@
+print("Fill in the blank lyrics!")
+print("(Type in the blank lyrics and see if you are as cool as me.)")
+
+counter = 0
+while True:
+  print("Never going to ______ you up.")
+  answer = input("")
+  counter += 1
+  if answer == "put":
+    print("Nope, try again.")
+    print()
+  elif answer == "let":
+    print("Nope, try again.")
+    print()
+  else:
+    break
+print(f"Well done! It only took you {counter} attempts.")
