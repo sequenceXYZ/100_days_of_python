@@ -1,0 +1,12 @@
+exit = ""
+while exit != "yes":
+  animal = input("What animal do you want?: ")
+  if animal == "cow":
+    print(f"A {animal} goes moo!")
+  elif animal == "dog":
+    print(f"A {animal} goes bark!")
+  elif animal == "cat":
+    print(f"A {animal} goes meau!")
+  else:
+    print("This is some unknown animal. ")
+  exit = input("Do you want to exit?: ")
