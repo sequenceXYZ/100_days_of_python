@@ -1,0 +1,41 @@
+from getpass import getpass as input
+# to make user input invisible for others
+
+
+print("E P I C   ✊📃✂️   B A T T L E")
+print("Select your move (R, P or S)")
+player_1 = input("Player 1 > ")
+player_2 = input("Player 2 > ")
+
+if player_1 == "P":
+  if player_2 =="P":
+    print("Both players have chosen 📃 !!!")
+  elif player_2 == "S":
+    print("Player 2 wins with ✂️ !!!")
+  elif player_2 == "R":
+    print("Player 1 wins with 📃 !!!")
+  else:
+    pass
+    
+elif player_1 == "S":
+  if player_2 == "S":
+    print("Both players have chosen ✂️ !!!")
+  elif player_2 == "P":
+    print("Player 1 wins with ✂️ !!!")
+  elif player_2 == "R":
+    print("Player 2 wins with ✊ !!!")
+  else:
+    pass
+
+elif player_1 == "R":
+  if player_2 == "R":
+    print("Both players have chosen ✊ !!!")
+  elif player_2 == "P":
+    print("Player 2 wins with 📃 !!!")
+  elif player_2 == "S":
+    print("Player 2 wins with ✊ !!!")
+  else:
+    pass
+    
+else:
+  print("Invalid input. Capital letters R, P or S only.")
